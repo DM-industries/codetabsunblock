@@ -17,4 +17,4 @@ build command: `node`
 
 start command: `node .`
 
-[https://github.com/dragon731012/DM-Unbl0cker/tree/non-static](View non-static proxy with games here.)
+[View non-static proxy with games here.](https://github.com/dragon731012/DM-Unbl0cker/tree/non-static)
