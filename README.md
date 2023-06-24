@@ -1,9 +1,9 @@
-<p align="center"><img src="/static/img/logo.png" height="200">
+<p align="center"><img src="/img/logo.png" height="200">
 </p>
 
-<h1 align="center">DM unbl0cker</h1>
+<h1 align="center">DM unbl0cker static</h1>
 
-<h4 align="center">uses ultraviolet to search the web freely.</h3>
+<h4 align="center">uses ultraviolet to search the web freely. (no games in static version)</h3>
 
 <p align="center">
 <a href="https://discord.gg/hrXXUeWgrn">
