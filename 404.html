@@ -3,7 +3,7 @@
   <h1 id="title1">404 not found</h1>
 </div>
 <div class="belowtitle" onclick="gohome();">
-  <h4 id="title3">it looks like you mistyped a link, or the proxy didn't start correctly. Press the button below to try to fix the proxy. If it dosn't work the first time, go back to home. proxy developed by tiw.</h4>
+  <h4 id="title3">it looks like you mistyped a link, or the proxy didn't start correctly.</h4>
   <h4 id="title2" class="title2">  go home?</h4>
 </div>
 <style>
@@ -35,17 +35,15 @@
   body{
     background: black;
   }
-  .retry{
-      align:center;
-      position:absolute;
-      color:white;
-      background:none;
-      top:63%;
-      left:49%;
-      border-radius:25px;
-  }
 </style>
 <script>
+  function get_cookie(cookie_name) { const value = "; " + document.cookie; const parts = value.split("; " + cookie_name + "="); if (parts.length === 2) return parts.pop().split(";").shift(); } 
+  var startup=get_cookie("startup");
+  if (startup==undefined){
+    document.cookie="startup=none; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
+    window.location.href=window.location.origin;
+  }
+  
   var fontsize1=2560/screen.width*18;
   title1.style.fontSize=fontsize1+"px";
   var fontsize2=2560/screen.width*7.5;
@@ -58,7 +56,6 @@
   }
 </script>
 
-<button id="reload" class="reload" onclick="window.location.reload(1);">retry</button>
 <script src="uv/uv.bundle.js"></script>
 <script src="uv/uv.config.js"></script>
 <script src="register-sw.js"></script>
