@@ -13,8 +13,7 @@
 <h1></h1>
 <h2>deployment</h2>
 
-build command: `node`
-
-start command: `node .`
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdragon731012%2FDM-unbl0cker%2Ftree%2Fstatic)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dragon731012/DM-unbl0cker)
 
 [View non-static proxy with games here.](https://github.com/dragon731012/DM-Unbl0cker/tree/non-static)
